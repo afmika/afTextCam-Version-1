@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TextCam afmika</title>
+  <meta charset="utf-8"/>
+  <style>
+  
+  canvas, video {
+		position  : absolute;
+  }
+  
+  canvas {
+		x : 20px;
+		transform : scale(2);
+  }
+  
+  </style>
+</head>
+	<body>
+
+		<center>
+			  <video hidden autoplay playsinline></video>
+		</center>
+
+		<canvas id="canvas" width="85" height="85"></canvas>
+		<textarea id="zonetexte" style="font-size: 12px;" cols=175 rows=90></textarea>
+
+		<script src="init.js"></script>
+		<script src="algo.js"></script>
+
+	</body>
+</html>
